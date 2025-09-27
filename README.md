@@ -1,8 +1,3 @@
-Of course. Here is the complete content for your `README.md` file. You can copy and paste this directly.
-
------
-
-```markdown
 # Advanced Deepfake Video Detector
 
 An end-to-end deep learning project for detecting deepfake videos using Python, TensorFlow, and OpenCV, complete with a trained EfficientNetV2B0 model and a Tkinter desktop analysis tool.
@@ -61,29 +56,23 @@ The core of the project is a deep learning model built using the **EfficientNetV
 
 ## 📂 Project Structure
 
-```
-
 Deepfake-Video-Detector/
-├── processed\_images/         \# (Generated) Stores extracted faces for training
-├── video\_dataset/            \# (Generated) Stores the sampled video dataset
+├── processed_images/         # (Generated) Stores extracted faces for training
+├── video_dataset/            # (Generated) Stores the sampled video dataset
 │
-├── best\_deepfake\_model\_effnet.keras  \# The final trained model
-├── consolidate\_dataset.py    \# Script to sample and consolidate videos
-├── analyze\_dataset.py        \# Script to filter videos with no usable faces
-├── train\_model.py            \# Main script to preprocess data and train the model
-├── confusion\_matrix.py       \# Script to evaluate the model and create plots
-├── desktop\_app.py            \# The Tkinter GUI application script
+├── best_deepfake_model_effnet.keras  # The final trained model
+├── consolidate_dataset.py    # Script to sample and consolidate videos
+├── analyze_dataset.py        # Script to filter videos with no usable faces
+├── train_model.py            # Main script to preprocess data and train the model
+├── confusion_matrix.py       # Script to evaluate the model and create plots
+├── desktop_app.py            # The Tkinter GUI application script
 │
-├── deploy.prototxt           \# Face detector model structure
-├── res10\_300x300\_ssd\_iter\_140000.caffemodel \# Face detector model weights
+├── deploy.prototxt           # Face detector model structure
+├── res10_300x300_ssd_iter_140000.caffemodel # Face detector model weights
 │
-├── training\_history.png      \# (Generated) Plot of training/validation accuracy and loss
-├── Confusion Matrix.png      \# (Generated) Confusion matrix of the model's performance
-└── README.md                 \# This file
-
-````
-
----
+├── training_history.png      # (Generated) Plot of training/validation accuracy and loss
+├── Confusion Matrix.png      # (Generated) Confusion matrix of the model's performance
+└── README.md                 # This file
 
 ## 📊 Results & Performance
 
@@ -146,45 +135,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 To create your own video dataset from a source like FaceForensics++, configure the paths in `consolidate_dataset.py` and run it.
 ```sh
 python consolidate_dataset.py
-````
 
-### 2\. Train the Model
 
-To train the model from scratch, first ensure your `video_dataset` is ready. Then, configure the parameters in `train_model.py` and run it. This will first preprocess the videos into the `processed_images` folder and then start training.
-
-```sh
+2. Train the Model
+To train the model from scratch, first ensure your video_dataset is ready. Then, configure the parameters in train_model.py and run it. This will first preprocess the videos into the processed_images folder and then start training.
 python train_model.py
-```
-
-### 3\. Evaluate the Model
-
-To generate the confusion matrix and other performance plots on the test data, run `confusion_matrix.py`.
-
-```sh
-python confusion_matrix.py
-```
-
-### 4\. Run the Application
-
-To launch the desktop application and analyze a video file, run `desktop_app.py`.
-
-```sh
-python desktop_app.py
-```
-
------
-
-## 📜 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
------
-
-## 🙏 Acknowledgments
-
-  * This project uses the [FaceForensics++](https://github.com/ondyari/FaceForensics) dataset.
-
-<!-- end list -->
-
-```
-```
