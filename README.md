@@ -172,7 +172,33 @@ This project was developed as part of an academic research initiative. For contr
 
 ## License
 
-This project is developed for educational and research purposes. Please ensure compliance with dataset licenses and terms of use.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License
+
+Copyright (c) 2025 Abhishek Singh and Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+Please ensure compliance with dataset licenses and terms of use when using this software.
 
 ## Citation
 
@@ -194,7 +220,13 @@ Year: 2025
 
 ## Contact
 
-For questions or support, please contact the development team through the institution's official channels.
+For questions, support, or collaboration opportunities:
+
+**Lead Developer**: Abhishek Singh
+- Email: [abhisheksingh995639@gmail.com](mailto:abhisheksingh995639@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/abhisheksingh995639](https://www.linkedin.com/in/abhisheksingh995639)
+
+For institutional inquiries, please contact through VIT Bhopal University's official channels.
 
 ---
 
